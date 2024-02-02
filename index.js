@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"https://studyhubs.netlify.app",
+		origin:"https://studinotion.netlify.app",
 		credentials:true,
 	})
 )
